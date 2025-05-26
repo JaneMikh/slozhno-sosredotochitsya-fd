@@ -2,4 +2,78 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-family: var(--main-font), sans-serif;
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  justify-content: center;
+  padding: 10px;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  position: absolute;
+  content: '';
+  inline-size: 25px;
+  block-size: 25px;
+  border-color: var(--decor-elem-color);
+  border-style: solid;
+}
+
+.decorated-zone::before {
+  top: 10px;
+  right: 10px;
+  border-width: 1px 1px 0 0;
+}
+
+.decorated-zone::after {
+  left: 10px;
+  bottom: 10px;
+  border-width: 0 0 1px 1px;
+}
+
+.header__decorative-element {
+  position: absolute;
+  content: '';
+  top: 10px;
+  right: 38px;
+  color: #FF0070; /*На светлых темах этот значок убирается, поэтому пока не выношу этот цвет в отдельную переменную*/
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header__decorative-element::after {
+  position: absolute;
+  content: '';
+  top: 8px;
+  right: -18px;
+  block-size: 9px;
+  inline-size: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-bg-color);
+  box-shadow: 0px 0px 4px 2px var(--shadow-color);  /*Нужно будет подогнать по пикселям*/
+
+}
+
+.title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: var(--title-dt-pl-font-size);
+  line-height: 83%;
+  color: var(--title-color);
+}
+
+.title_text-shadow {
+  text-shadow: 4px 4px 0 var(--shadow-color);
 }
