@@ -7,7 +7,8 @@
   --title-color: #DB00FF;
   --accent-text-color: #000028;
   --accent-bg-color: #FF0070;
-  --link-text-color: #FF0070;
+  --link-color: #FF0070;
+  --link-hover-color: rgba(255, 0, 112, 0.4);
   --shadow-color: #FF0070;
   --main-font: 'IBM Plex Mono';
   --bg-image: url(../images/cover-image-dark.png);
