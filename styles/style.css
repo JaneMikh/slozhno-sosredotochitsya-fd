@@ -270,4 +270,23 @@
     align-self: end;
     margin-bottom: 11px;
   }
+
+  .main {
+    padding: 60px 20px 0;
+  }
+
+  .section_type_columns {
+    grid-template-columns: 236px 1fr;
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+
+  .section_type_rows {
+    margin-bottom: 80px;
+  }
+
+  .section__heading {
+    max-width: 236px;
+  }
+
 } 
