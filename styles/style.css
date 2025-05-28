@@ -139,7 +139,7 @@
 /*Стили для блоков main и articles*/
 
 .main {
-  padding: 40px 10px 40px;
+ padding: 40px 10px 0;
 }
 
 .section {
@@ -218,4 +218,18 @@
 .gallery__image {
   display: block;
   inline-size: 100%;
+}
+
+/*Стили для блока footer*/
+
+.footer {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-decoration {
+  text-shadow: 2px 2px 0px var(--shadow-color);
 }
