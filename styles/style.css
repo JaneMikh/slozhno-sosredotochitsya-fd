@@ -233,3 +233,41 @@
 .title-decoration {
   text-shadow: 2px 2px 0px var(--shadow-color);
 }
+
+/*Медиазапросы для планшетной версии*/
+
+@media (768px <= width < 1024px) {
+
+  .header {
+    padding: 20px 20px 20px 0;
+    justify-content: normal;
+    gap: 162px;
+  }
+
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+
+  .decorated-zone::after {
+  left: 20px;
+  bottom: 20px;
+
+  }
+
+  .header__decorative-element {
+    top: 20px;
+    right: 48px;
+  }
+
+  .header__text {
+    max-inline-size: 364px;
+    justify-self: end;
+    align-self: start;
+  }
+
+  .header__theme-menu {
+    align-self: end;
+    margin-bottom: 11px;
+  }
+} 
