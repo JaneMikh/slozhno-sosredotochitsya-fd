@@ -111,6 +111,7 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--link-color);
+  pointer-events: none;
 }
 
 .title {
@@ -261,7 +262,6 @@
   .decorated-zone::after {
   left: 20px;
   bottom: 20px;
-
   }
 
   .header__decorative-element {
@@ -303,7 +303,6 @@
     margin-bottom: 60px;
   }
 
-  
   .gallery__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
