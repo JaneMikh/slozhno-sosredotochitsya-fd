@@ -1,21 +1,16 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
   --main-text-color: #F1B2CE;
+  --main-font: 'IBM Plex Mono';
   --title-color: #DB00FF;
   --accent-dark-text-color: #000028;
   --accent-text-color: #FF0070;
   --accent-bg-color: #FF0070;
-  --link-color: #FF0070;
-  --link-hover-color: rgba(255, 0, 112, 0.4);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
   --atricle-link-color: #F1B2CE;
   --shadow-color: #FF0070;
-  --main-font: 'IBM Plex Mono';
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --decor-elem-color: #FF0070;
+  --decor-element-color: #FF0070;
   --display-decor-element: block;
   --title-dt-pl-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
