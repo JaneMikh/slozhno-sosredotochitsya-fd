@@ -1,14 +1,14 @@
 :root.theme-dark {
-  --main-text-color: #F1B2CE;
-  --title-color: #DB00FF;
+  --main-text-color: #f1b2ce;
+  --title-color: #db00ff;
   --accent-dark-text-color: #000028;
-  --accent-text-color: #FF0070;
-  --accent-bg-color: #FF0070;
+  --accent-text-color: #ff0070;
+  --accent-bg-color: #ff0070;
   --button-hover-color: rgba(255, 0, 112, 0.4);
-  --atricle-link-color: #F1B2CE;
-  --text-link-color: #F1B2CE;
-  --shadow-color: #FF0070;
+  --atricle-link-color: #f1b2ce;
+  --text-link-color: #f1b2ce;
+  --shadow-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --decor-element-color: #FF0070;
+  --decor-element-color: #ff0070;
 }

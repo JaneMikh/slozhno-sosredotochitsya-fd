@@ -1,16 +1,16 @@
 :root {
-  --main-text-color: #F1B2CE;
+  --main-text-color: #f1b2ce;
   --main-font: 'IBM Plex Mono';
-  --title-color: #DB00FF;
+  --title-color: #db00ff;
   --accent-dark-text-color: #000028;
-  --accent-text-color: #FF0070;
-  --accent-bg-color: #FF0070;
+  --accent-text-color: #ff0070;
+  --accent-bg-color: #ff0070;
   --button-hover-color: rgba(255, 0, 112, 0.4);
-  --atricle-link-color: #F1B2CE;
-  --shadow-color: #FF0070;
+  --atricle-link-color: #f1b2ce;
+  --shadow-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --decor-element-color: #FF0070;
+  --decor-element-color: #ff0070;
   --display-decor-element: block;
   --title-dt-pl-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
