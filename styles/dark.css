@@ -11,4 +11,5 @@
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --decor-element-color: #ff0070;
+  --display-decor-element: block;
 }

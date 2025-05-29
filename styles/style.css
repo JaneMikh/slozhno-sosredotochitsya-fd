@@ -342,6 +342,9 @@
 }
 
 @media (min-width: 1024px) {
+  .header {
+    gap: 114px;
+  }
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
