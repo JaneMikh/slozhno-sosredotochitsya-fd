@@ -51,10 +51,11 @@
   content: '';
   top: 10px;
   right: 38px;
-  color: #FF0070; /*На светлых темах этот значок убирается, поэтому пока не выношу этот цвет в отдельную переменную*/
+  color: var(--accent-text-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  display: var(--display-decor-element);
 }
 
 .header__decorative-element::after {
