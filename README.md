@@ -8,4 +8,4 @@
 - CSS
 - javaScript
 
-## Посмотреть проект: https://github.com/JaneMikh/slozhno-sosredotochitsya-fd
+### Посмотреть проект: https://github.com/JaneMikh/slozhno-sosredotochitsya-fd

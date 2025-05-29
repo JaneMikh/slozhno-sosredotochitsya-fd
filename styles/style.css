@@ -198,7 +198,6 @@
 }
 
 .atricle__link:focus-visible {
-  outline: none;
   outline: 1px solid var(--atricle-link-color);
 }
 
@@ -233,13 +232,15 @@
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 /*Стили для блока footer*/
 
 .footer {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   display: flex;
   align-items: center;
   justify-content: center;
