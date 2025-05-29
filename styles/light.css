@@ -16,6 +16,7 @@
   --accent-bg-color:#FF8DCB;
   --link-color: #353430;
   --link-hover-color: rgba(50, 49, 45, 0.4);
+  --atricle-link-color: #353430;
   --shadow-color: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
@@ -39,6 +40,7 @@
     --accent-bg-color:#FF8DCB;
     --link-color: #353430;
     --link-hover-color: rgba(50, 49, 45, 0.4);
+    --atricle-link-color: #353430;
     --shadow-color: #FF8DCB;
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;

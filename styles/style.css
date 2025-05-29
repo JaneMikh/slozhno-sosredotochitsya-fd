@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   font-family: var(--main-font), sans-serif;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -90,10 +89,11 @@
   font-size: 18px;
   line-height: 100%;
   text-transform: lowercase;
-  text-align: center;
+ /* text-align: center;*/
   color: var(--link-color);
-  padding: 3px 13px;
+  padding: 0 12px 2px;
   cursor: pointer;
+  block-size: 26px;
 }
 
 .header__theme-menu-button:hover {
@@ -156,13 +156,6 @@
   line-height: 130%;
 }
 
-.gallery__title {
-  color: var(--accent-dark-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 130%;
-}
-
 .heading-decoration {
   color: var(--accent-text-color);
 }
@@ -201,8 +194,23 @@
 
 .atricle__link {
   text-decoration: none;
-  text-shadow: 2px 2px var(--accent-text-color);
+  text-shadow: 2px 2px var(--shadow-color);
 }
+
+.atricle__link:focus {
+  outline: none;
+}
+
+.atricle__link:focus-visible {
+  outline: none;
+  outline: 1px solid var(--atricle-link-color);
+}
+
+.atricle__link:hover {
+  outline: none;
+  border-bottom: 1px solid var(--atricle-link-color);
+}
+
 
 /*Стили для секции с галереей*/
 
@@ -211,6 +219,13 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 40px;
+}
+
+.gallery__title {
+  color: var(--accent-dark-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 .gallery__list {
