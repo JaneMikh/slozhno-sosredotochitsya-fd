@@ -1,5 +1,6 @@
 .page {
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font, sans-serif);
+  color: var(--main-text-color);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
@@ -103,16 +104,15 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--decor-element-color);
+  border-bottom: 1px solid currentColor;
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--decor-element-color);
+  outline: 1px solid currentColor;
   pointer-events: none;
 }
 
 .title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: var(--title-mob-font-size);
   line-height: 83%;
@@ -185,7 +185,6 @@
 
 .article__text {
   font-weight: 400;
-  color: var(--main-text-color);
 }
 
 .atricle__link {
@@ -198,12 +197,12 @@
 }
 
 .atricle__link:focus-visible {
-  outline: 1px solid var(--atricle-link-color);
+  outline: 1px solid currentColor;
 }
 
 .atricle__link:hover {
   outline: none;
-  border-bottom: 1px solid var(--atricle-link-color);
+  border-bottom: 1px solid currentColor;
 }
 
 /*Стили для секции с галереей*/
@@ -278,7 +277,7 @@
     padding: 60px 20px 0;
   }
 
-  .section_type_rows {
+  .section {
     margin-bottom: 80px;
   }
 
@@ -331,10 +330,8 @@
     margin-bottom: 11px;
   }
 
-  .section_type_columns {
+  .section-two-columns {
     grid-template-columns: 236px 1fr;
-    gap: 20px;
-    margin-bottom: 80px;
   }
 
   .section__heading {
@@ -366,17 +363,15 @@
     align-self: start;
   }
 
-  .section_type_columns {
+  .section-two-columns {
     grid-template-columns: 315px 1fr;
-    gap: 20px;
-    margin-bottom: 80px;
   }
 
   .section__heading {
     max-width: 315px;
   }
 
-  .section_type_rows > .articles-container {
+  .section-three-columns > .articles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
