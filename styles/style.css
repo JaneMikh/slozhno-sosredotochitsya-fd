@@ -330,7 +330,8 @@
     margin-bottom: 11px;
   }
 
-  .section-two-columns {
+  .section-why,
+  .section-how {
     grid-template-columns: 236px 1fr;
   }
 
@@ -363,7 +364,8 @@
     align-self: start;
   }
 
-  .section-two-columns {
+  .section-why,
+  .section-how {
     grid-template-columns: 315px 1fr;
   }
 
@@ -371,7 +373,7 @@
     max-width: 315px;
   }
 
-  .section-three-columns > .articles-container {
+  .section-what> .articles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
